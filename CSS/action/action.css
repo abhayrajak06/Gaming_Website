@@ -1,0 +1,131 @@
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(255 255 255);
+    font-weight:400;
+}
+
+#top_nav{
+    background-color: rgb(115, 153, 153);
+}
+
+
+/* login and signup CSS */
+#divider{
+    margin: 0 6px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#login{
+    text-decoration: none;
+    color: black;
+    margin-top: 3px;
+    
+}
+
+#signup{
+    text-decoration: none;
+    color: black;
+    margin-top: 3px;
+}
+
+#login1{
+    background-color: rgb(231, 242, 161);
+    padding: 0 2px;
+    border-radius: 6px;
+}
+#login:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+#signup:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+#signup1{
+    background-color: rgb(231, 242, 161);
+    padding: 0 2px;
+    border-radius: 6px;
+}
+
+
+/* icons CSS */
+.icons{
+    display: flex;
+    list-style-type: none;
+}
+
+#a1{
+    width: 20px;
+    /* margin: 0 10px; */
+    margin-right: 10px;
+}
+#a1:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+#a2{
+    width: 20px;
+    margin: 0 10px;
+}
+#a2:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+#a3{
+    width: 20px;
+    margin: 0 10px;
+}
+#a3:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+
+/* items CSS  */
+.dropdown-menu{
+    background-color: yellowgreen;
+}
+.dropdown-item:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+#action{
+    background-color: red;
+}
+#adventure{
+    background-color: green;
+}
+#racing{
+    background-color: skyblue;
+}
+#puzzle{
+    background-color: yellow;
+}
+#sports{
+    background-color: blue;
+}
+
+
+/* action CSS  */
+#top_bar{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 1.4s;
+    border-radius: 8px;
+}
+
+body{
+    background-color: aliceblue;
+}

@@ -1,0 +1,93 @@
+/* Navbar CSS */
+
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(255 255 255);
+    font-weight:400;
+}
+
+#top_nav{
+    background-color: rgb(109, 119, 119);
+    opacity: 0.8;
+}
+
+.icons{
+    display: flex;
+    list-style-type: none;
+}
+
+#a1{
+    width: 20px;
+    /* margin: 0 10px; */
+    margin-right: 10px;
+}
+#a1:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+#a2{
+    width: 20px;
+    margin: 0 10px;
+}
+#a2:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+#a3{
+    width: 20px;
+    margin: 0 10px;
+}
+#a3:hover{
+    width: 40px;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+
+/* items CSS  */
+.dropdown-menu{
+    background-color: yellowgreen;
+}
+.dropdown-item:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+#action{
+    background-color: red;
+}
+#adventure{
+    background-color: green;
+}
+#racing{
+    background-color: skyblue;
+}
+#puzzle{
+    background-color: yellow;
+}
+#sports{
+    background-color: blue;
+}
+
+
+
+/* login CSS */
+.formarea{
+    width: 320px;
+    background-color: rgb(239, 236, 228);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 6px;
+}
+
+body{
+    background: url(https://wallpapertag.com/wallpaper/full/7/6/2/308208-best-4k-gaming-wallpaper-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
