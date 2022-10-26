@@ -121,3 +121,8 @@ body{
     transition: 1.4s;
     border-radius: 8px;
 }
+
+/* dropdown menu hover  */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
